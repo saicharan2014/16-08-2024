@@ -1,0 +1,37 @@
+#nav {
+  background-color: brown;
+  height: 10vh;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  border: 2px solid red;
+  z-index: 1;
+}
+img {
+  width: 20vw;
+  display: block;
+  margin: 20px;
+}
+
+.container {
+  position: relative;
+}
+.right {
+  position: relative;
+}
+.left {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#center {
+  position: absolute;
+  left: 39vw;
+  top: 20vw;
+  width: 30vw;
+
+}
+.img3 {
+  margin-top: 100px;
+
+}
